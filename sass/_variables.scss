@@ -1,0 +1,31 @@
+/*=====================================
+FONTS
+======================================*/
+$fonts-size: (
+  global: 62.5%,
+  base: 1.3rem,
+  h1: 3.2rem,
+  h2: 2.8rem,
+  h3: 2.4rem,
+  h4: 2.1rem,
+  h5: 1.8rem,
+  h6: 1.5rem,
+  header : 14px
+);
+
+$fonts-family: (
+  poppins: "Poppins",
+  raleway: "Raleway",
+  beth-ellen:"Beth Ellen"
+);
+
+/*=====================================
+COLORS
+======================================*/
+$colors:(
+_black:#262626,
+_green:#D1FFA2,
+_purple:#6D0AD3,
+_light-blue:#0098EF,
+_light-green:#00CF95
+)

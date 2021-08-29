@@ -1,0 +1,34 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: map-get($fonts-family, poppins);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: map-get($fonts-size, h1);
+}
+
+h2 {
+  font-size: map-get($fonts-size, h2);
+}
+
+h3 {
+  font-size: map-get($fonts-size, h3);
+}
+
+h4 {
+  font-size: map-get($fonts-size, h4);
+}
+
+h5 {
+  font-size: map-get($fonts-size, h5);
+}
+
+h6 {
+  font-size: map-get($fonts-size, h6);
+}
+

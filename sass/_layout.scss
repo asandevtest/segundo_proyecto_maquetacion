@@ -1,0 +1,18 @@
+/*=====================================
+ESTRUCTURA PRINCIPAL
+======================================*/
+
+.wrapper{
+    max-width: 960px;
+    margin: auto;
+
+    /* INICIO : MANTENER EL FOOTER SIEMPRE ABAJO*/
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    .main{
+        flex-grow: 1;
+    }
+    /* FIN : MANTENER EL FOOTER SIEMPRE ABAJO */
+}

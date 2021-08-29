@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: map-get($fonts-size, base);
+}
+
+body {
+  font-size: map-get($fonts-size, global);
+  font-family: map-get($fonts-family, poppins);
+  color: map-get($colors, _black);
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  font-family: map-get($fonts-family, Poppins);
+  font-size: 28px;
+  color: map-get($colors, _light-blue);
+  margin-bottom: 30px;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  padding: 20px;
+  border: 1px solid #c0c0c0;
+  border-radius: 8px;
+  color: inherit;
+  width: 100%;
+}

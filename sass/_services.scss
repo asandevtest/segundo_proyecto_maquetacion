@@ -1,0 +1,59 @@
+.services {
+  margin-bottom: 50px;
+
+  .contain {
+    display: grid;
+    grid-template-columns: repeat(2, 308px);
+    grid-template-rows: repeat(3, 218px);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    justify-items: center;
+    margin: auto;
+    height: 750px;
+    width: 650px;
+
+    .first,
+    .element {
+      background-color: map-get($colors, _light-green);
+      width: 308px;
+      height: 218px;
+      border: solid#d1ffa2;
+
+      img {
+        position: relative;
+        top: 27.67px;
+        left: 27.67px;
+      }
+
+      .descrip {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: map-get($fonts-family, Poppins);
+        font-size: 24px;
+        color: #5a0cb0;
+        background-color: map-get($colors, _green);
+        position: relative;
+        top: 90px;
+        left: 124px;
+        width: 180px;
+        height: 48px;
+        border-radius: 8px;
+        border: solid#d1ffa2;
+      }
+    }
+    :hover {
+      border: solid#5a0cb0;
+
+      .descrip {
+        border: solid#5a0cb0;
+        background-color: #5a0cb0;
+        color: white;
+      }
+
+      img {
+        border: none;
+      }
+    }
+  }
+}
